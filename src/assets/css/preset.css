@@ -1,0 +1,75 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+input:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px #66afe9;
+}
+
+button {
+    width: 80px;
+    height: 34px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2e6da4;
+}
+
+button:hover {
+    background-color: #215c91;
+}
+
+button:active {
+    background-color: #0b5291;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .modal-dialog {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.modal .modal-dialog .button-zone {
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.modal .modal-dialog .button-zone button {
+    margin: 0 10px;
+}
